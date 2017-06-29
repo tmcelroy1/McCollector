@@ -13,6 +13,8 @@
 		522CDA8E1F055ED9004C5DDD /* McCollector.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 522CDA8C1F055ED9004C5DDD /* McCollector.xcdatamodeld */; };
 		522CDA901F055ED9004C5DDD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 522CDA8F1F055ED9004C5DDD /* Assets.xcassets */; };
 		522CDA931F055ED9004C5DDD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 522CDA911F055ED9004C5DDD /* LaunchScreen.storyboard */; };
+		522CDA9B1F058190004C5DDD /* hamPlaybill.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 522CDA9A1F058190004C5DDD /* hamPlaybill.JPG */; };
+		522CDA9D1F058361004C5DDD /* CollectionAddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 522CDA9C1F058361004C5DDD /* CollectionAddViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		522CDA8F1F055ED9004C5DDD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		522CDA921F055ED9004C5DDD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		522CDA941F055ED9004C5DDD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		522CDA9A1F058190004C5DDD /* hamPlaybill.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = hamPlaybill.JPG; sourceTree = "<group>"; };
+		522CDA9C1F058361004C5DDD /* CollectionAddViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionAddViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,8 +60,10 @@
 		522CDA841F055ED9004C5DDD /* McCollector */ = {
 			isa = PBXGroup;
 			children = (
+				522CDA9A1F058190004C5DDD /* hamPlaybill.JPG */,
 				522CDA851F055ED9004C5DDD /* AppDelegate.swift */,
 				522CDA871F055ED9004C5DDD /* ViewController.swift */,
+				522CDA9C1F058361004C5DDD /* CollectionAddViewController.swift */,
 				522CDA891F055ED9004C5DDD /* Main.storyboard */,
 				522CDA8F1F055ED9004C5DDD /* Assets.xcassets */,
 				522CDA911F055ED9004C5DDD /* LaunchScreen.storyboard */,
@@ -127,6 +133,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				522CDA931F055ED9004C5DDD /* LaunchScreen.storyboard in Resources */,
+				522CDA9B1F058190004C5DDD /* hamPlaybill.JPG in Resources */,
 				522CDA901F055ED9004C5DDD /* Assets.xcassets in Resources */,
 				522CDA8B1F055ED9004C5DDD /* Main.storyboard in Resources */,
 			);
@@ -139,6 +146,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				522CDA9D1F058361004C5DDD /* CollectionAddViewController.swift in Sources */,
 				522CDA8E1F055ED9004C5DDD /* McCollector.xcdatamodeld in Sources */,
 				522CDA881F055ED9004C5DDD /* ViewController.swift in Sources */,
 				522CDA861F055ED9004C5DDD /* AppDelegate.swift in Sources */,
