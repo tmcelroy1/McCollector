@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "1597CFE38ECB512CA696FCAD9871F9F7CCEF8322",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "1597CFE38ECB512CA696FCAD9871F9F7CCEF8322" : 9223372036854775807,
+    "6745F1B54D0B1C2C0BC6CD5504D9A65078365260" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "775C1744-3A10-462C-BC3D-E2708775A43C",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "1597CFE38ECB512CA696FCAD9871F9F7CCEF8322" : "McCollector\/",
+    "6745F1B54D0B1C2C0BC6CD5504D9A65078365260" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "McCollector",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "McCollector.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/tmcelroy1\/McCollector.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "1597CFE38ECB512CA696FCAD9871F9F7CCEF8322"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/tmcelroy1\/testNewApp.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "6745F1B54D0B1C2C0BC6CD5504D9A65078365260"
+    }
+  ]
+}
