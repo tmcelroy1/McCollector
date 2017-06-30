@@ -51,6 +51,7 @@ class CollectionAddViewController: UIViewController, UIImagePickerControllerDele
         
         
         (UIApplication.shared.delegate as! AppDelegate).saveContext()
+        navigationController!.popViewController(animated: true)
     }
     
     

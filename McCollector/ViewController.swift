@@ -30,7 +30,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         
         do {
             collections = try context.fetch(Collection.fetchRequest())
-            print(collections)
+            tableView.reloadData()
             
         } catch{
             
@@ -47,6 +47,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         let cell = UITableViewCell()
         let collection = collections[indexPath.row]
         cell.textLabel?.text = collection.title
+        cell.imageView?.image = UIImage(data: collection.image as! Data)
         return cell
     }
 }
