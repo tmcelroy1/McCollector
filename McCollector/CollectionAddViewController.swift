@@ -43,6 +43,18 @@ class CollectionAddViewController: UIViewController, UIImagePickerControllerDele
     }
     
     @IBAction func addTapped(_ sender: Any) {
+        let context = (UIApplication.shared.delegate as! AppDelegate).persistentContainer.viewContext
+        
+        let playbill = Collection(context: context)
+        playbill.title = descriptTextField.text
+        playbill.image = UIImagePNGRepresentation(collectionView.image!) as! NSData
+        
+        
+        (UIApplication.shared.delegate as! AppDelegate).saveContext()
     }
+    
+    
+    
+
     
 }
